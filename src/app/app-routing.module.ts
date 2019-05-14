@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: 'tableaux', loadChildren: './tableaux/tableaux.module#TableauxPageModule' },
   { path: 'ngmodel', loadChildren: './ngmodel/ngmodel.module#NgmodelPageModule' },
   { path: 'clic', loadChildren: './clic/clic.module#ClicPageModule' },
+  { path: 'back-button', loadChildren: './back-button/back-button.module#BackButtonPageModule' },
+  { path: 'grid', loadChildren: './grid/grid.module#GridPageModule' },
 ];
 
 @NgModule({
