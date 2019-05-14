@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>tableaux</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  liste des mois
+  <br>
+
+  <!-- liste des mois, le tableau a ete crée dans le fichier ts -->
+  <ion-list>
+    <ion-item *ngFor="let month of monthList">
+      {{month}}
+    </ion-item>
+  </ion-list>
+
+  <ion-item>
+    <ion-icon name="home"></ion-icon>
+    <ion-button href="home">retour</ion-button>
+  </ion-item>
+
+</ion-content>
